@@ -1,5 +1,4 @@
-faceJam
-##title: faceJam
+#faceJam
 
 ##Team Members: David Daniels, Marcus Johnson, Andrea Velardi
 
