@@ -1,0 +1,78 @@
+.billBoard{
+    text-align: center; 
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 80px; 
+    font-weight: bold; 
+    background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Forig00.deviantart.net%2F550b%2Ff%2F2011%2F052%2Fe%2Ff%2Fboombox_head_by_wth_iz_this-d3a2504.png"); 
+    background-size: 20%; 
+    height: 100px;
+}
+
+
+.container{
+    font-family: 'Gloria Hallelujah', cursive; 
+    text-align: center;
+}
+
+.faceJamLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(173, 65, 65);
+    color: white;
+    text-align: center;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#imgInp{
+    width: 48%; 
+}
+
+#img-upload{
+    width: 48%;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+  
+  
